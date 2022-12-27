@@ -10,7 +10,7 @@ def organizedBlock():
     """
     
     #get objects to create block from
-    objs = rs.GetObjects("select objects to creat block from")
+    objs = rs.GetObjects("select objects to create block from")
     if not objs: return
     
     base_point = rs.GetPoint("block base point")
